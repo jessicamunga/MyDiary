@@ -86,3 +86,16 @@ fieldset{
     font-size: 15px;
     color:red;
 }
+.input{
+    font-size: 30px;
+    background-color:grey;
+    border-radius: 8px;
+    margin-left: 100px;
+    color: white;
+    margin-top: 0px;
+    padding: 16px,
+}
+label{
+    font-size: 25px;
+    
+}
