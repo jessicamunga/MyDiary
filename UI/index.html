@@ -3,39 +3,54 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="signin.css" />
 </head>
-
 <body>
-    <center>
-        <div class="diary">
-            <h1>My Diary</h1>
-        </div>
-    </center>
-    <div class="form">
-        <form action="/action_page.php">
-            <p>First name:
-            <input type="text" name="f name"></p>
-            <p> Last name:
-            <input type="text" name="lname"></p>
-            <p> email:
-            <input type="email" name="myemail" placeholder="example@mail.com"></p>
-            <p> Password:
-            <input type="Password" name="Password" placeholder="example*"></p>
-            <p> Confirm password:
-            <input type="Confirm password" name="Confirm password"></p>
-            <p> Date of birth:
-            <input type="date" name="date">
-            </p>
-    
-            <div class="SignUp">
-                <center><h3>
-                    <input type="submit" value="SignUp"></h3></center>
+    <header>
+        <div class="row">
+            <div class="logo">
+        
+                <img src="logo/mylogo.png" alt="logo">
+            
             </div>
-        </form>
-    </div>
+            <div class="main-nav">
+            <ul class="main-nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="create.html">CREATE</a></li>
+                <li><a href="entries.html">ENTRIES</a></li>
+                <li><a href="manage.html">MANAGE</a></li>
+            </ul>
+            
+        </div>    
+        </header>
+        <section>
+        <div class="sign" >
+
+            <p>Please fill in fields to login into your account</p>
+            
+                <fieldset>
+                    <form>
+                        <p>Username:
+                        <input type="Username" name="Username"></p>
+                        <p>Password:
+                        <input type="Password" name="Password"></p>
+                        <input type="submit" value="SignIn">
+        
+                    </form>
+                </fieldset>
+                
+</div>
+
+     
+    </section>
+    <div class="hero">
+            <h1>WelcomeToMyDiary</h1>
+            <p>You can pen down your feelings and thoughts anytime,all the time!</p>
+ </div>
+            
+        </div>
     
-
-
+        
 </body>
-
 </html>
+
